@@ -144,3 +144,22 @@ body{
 .container .footer ul .creator span:hover{
     color:hsl(178, 100%, 50%);
 }
+@media screen and (max-width: 426px){
+    .container{
+        width:88%;
+        height:590px;
+        box-shadow: 0px 10px 0px 10px rgba(0,0,0,0.1), 0px 20px 0px 20px rgba(0,0,0,0.05);
+    }
+    .container .image{
+        height:300px;
+    }
+    .container .heading{
+        padding:20px 0px;
+    }
+    .container .footer{
+        padding-top:20px;
+    }
+    .container .info{
+        padding-bottom: 22px;
+    }
+}
